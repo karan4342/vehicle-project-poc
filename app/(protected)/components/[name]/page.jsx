@@ -1265,7 +1265,7 @@ const ComponentPage = () => {
                     10.03.2025
                   </div>
                 </div>
-                 <div className="space-y-3">
+                 {/* <div className="space-y-3">
                    <Badge variant="outline" className="m-2 text-violet-600 bg-violet-50 rounded-4xl border border-gray-400">
                      Project Details
                    </Badge>
@@ -1287,9 +1287,9 @@ const ComponentPage = () => {
                        <p className="text-violet-700 text-xs">{projectData.date}</p>
                      </div>
                    </div>
-                 </div>
+                 </div> */}
 
-                 <Separator className="my-2" />
+                 {/* <Separator className="my-2" /> */}
 
                 <div className="p-4 border-b border-gray-300">
                   <div className="text-center font-medium text-gray-700 mb-2">
