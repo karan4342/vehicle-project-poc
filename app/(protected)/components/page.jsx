@@ -389,7 +389,7 @@ export default function Components() {
     const savedData = localStorage.getItem("projectData")
     const savedStatus = localStorage.getItem("selectedStatus")
     if (!savedStatus){
-      setSelectedStatus("")
+      setSelectedStatus("0.12mm")
     } else {
       setSelectedStatus(savedStatus);
     }
