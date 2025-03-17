@@ -1214,7 +1214,7 @@ const ComponentPage = () => {
                   </div>
               </div>
 
-              <div className="flex items-center justify-center">
+              {/* <div className="flex items-center justify-center">
                 <Image
                   src="https://www.freepnglogos.com/uploads/car-logo-brands-png-transparent-image-7.png"
                   alt="Logo"
@@ -1222,10 +1222,10 @@ const ComponentPage = () => {
                   height={64}
                   className="object-contain"
                 />
-              </div>
+              </div> */}
 
               <div className="flex items-center space-x-8">
-                <div className="text-xl font-bold tracking-widest">AMG</div>
+                {/* <div className="text-xl font-bold tracking-widest">AMG</div> */}
                 <Button
                   variant="outline"
                   onClick={() => router.back()}

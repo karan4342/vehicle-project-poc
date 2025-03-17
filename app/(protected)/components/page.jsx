@@ -378,7 +378,7 @@ export default function Components() {
 
   // Car company logos array
   const carLogos1 = [
-    "https://www.freepnglogos.com/uploads/car-logo-brands-png-transparent-image-7.png",
+    // "https://www.freepnglogos.com/uploads/car-logo-brands-png-transparent-image-7.png",
     "https://th.bing.com/th/id/R.07ae4184325dfd99725442ec3ac16328?rik=ufJuxjOE7gNJ9w&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fcar-transparent-background%2fcar-transparent-background-22.png&ehk=pHFKR7cFiqlqYImNAsBz8Z7rFcJIT9RgZy4NR%2bm48YU%3d&risl=&pid=ImgRaw&r=0",
   ]
   const carLogos = [
@@ -473,7 +473,7 @@ export default function Components() {
                 </div>
             </div>
 
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <div className="flex space-x-2 my-1">
                 {carLogos1.map((logo, index) => (
                   <div key={index} className="w-16 h-16">
@@ -487,7 +487,7 @@ export default function Components() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div className="flex items-center space-x-4">
               <div className="flex flex-wrap gap-2 max-w-md">
@@ -503,7 +503,7 @@ export default function Components() {
               </div>
             </div>
 
-            <div className="flex items-center space-x-4">
+            {/* <div className="flex items-center space-x-4">
               <div className="flex space-x-2 my-1">
                 {carLogos.map((logo, index) => (
                   <div key={index} className="w-16 h-16">
@@ -517,7 +517,7 @@ export default function Components() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
